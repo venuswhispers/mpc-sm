@@ -2,7 +2,7 @@
     "builds": [
         {
             "src": "Cargo.toml",
-            "use": "@vercel/rust"
+            "use": "vercel/rust"
         }
     ],
     "routes": [
