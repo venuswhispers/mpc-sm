@@ -112,3 +112,7 @@ harness = false
 name = "lindel2017_sign"
 path = "benches/two_party_ecdsa/lindell_2017/sign.rs"
 harness = false
+
+[profile.release]
+opt-level = "z"
+lto = true
